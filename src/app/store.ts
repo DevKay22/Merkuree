@@ -1,0 +1,19 @@
+import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import authSlice from "../features/authSlice";
+import transactionSlice from "../features/transactionSlice";
+
+export const store = configureStore({
+  reducer: {
+    auth: authSlice,
+    transactions: transactionSlice,
+  },
+});
+
+export type AppDispatch = typeof store.dispatch;
+export type RootState = ReturnType<typeof store.getState>;
+export type AppThunk<ReturnType = void> = ThunkAction<
+  ReturnType,
+  RootState,
+  unknown,
+  Action<string>
+>;

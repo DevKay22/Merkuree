@@ -1,0 +1,180 @@
+.homepage {
+    background: linear-gradient(to right, #151A50, #2C2C50);
+    width: 100%;
+    height: 100%;
+    /* height: min-content; */
+
+}
+
+
+
+
+
+.homepage__body {
+    position: relative;
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, #151A50, #2C2C50);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+}
+
+
+.homepage__body_header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 5rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage__body_header>p {
+    padding-top: 10px;
+    opacity: 0.7;
+}
+
+
+.homepage__body_header>h1 {
+    padding-top: 10px;
+
+}
+
+.homepage__body_header>h6 {
+    padding-top: 10px;
+}
+
+
+.homepage__body>h1 {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.homepage__body>p {
+    color: whitesmoke;
+    opacity: .5;
+}
+
+.homepage__authenticated_section {
+    display: flex;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid white;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 5px;
+
+}
+
+.homepage__trading_buttons {
+    padding-top: 50px;
+}
+
+
+.homepage__trading_buttons>button:first-child {
+    background: linear-gradient(to right, #B35BFE, #5B35FF);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.homepage__trading_buttons>button:last-child {
+
+    padding: 15px 25px;
+    border: all;
+    border-style: groove;
+    border-radius: 10px;
+    color: #B35BFE;
+    font-weight: 800;
+    cursor: pointer;
+    background: #151A50
+}
+
+.homepage__trading_buttons>button:last-child:hover {
+    opacity: .5;
+}
+
+.homepage__trading_buttons>button:first-child:hover {
+    opacity: .5;
+}
+
+
+
+
+.homepage__crypto_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.crypto_list_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+
+.crypto_list_item_left_section>p {
+    padding-right: 10px;
+}
+
+.crypto_list_item_left_section {
+    display: flex;
+    align-items: center;
+}
+
+.crypto_list_item_left_section>h6 {
+    padding-right: 10px;
+}
+
+.crypto_list_item_left_section>img {
+    padding-right: 10px;
+    height: 40px;
+    width: 40px;
+
+
+}
+
+.homepage__crypto_list {
+    margin: 0 3rem;
+}
+
+/* *COIN LIST HEADER */
+
+.coin_list_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+/* * COIN LIST ITEMS */
+.coin_list_items {
+    margin: 0 3rem;
+}
+
+
+
+.avalaible_coins {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

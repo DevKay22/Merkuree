@@ -1,0 +1,109 @@
+.coins_section {
+    margin: 30px 20px;
+    justify-content: center;
+    
+}
+
+.coins_section_titles {
+
+    padding: 0 20px;
+    display: grid;
+    grid-column: 6;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(6 1fr); */
+
+
+    font-size: 13px;
+    font-weight: 700;
+    opacity: .9;
+    padding-bottom: 20px;
+}
+
+
+
+.coins_section_list {
+    padding: 20px 0;
+}
+
+
+.coins_section_item {
+    /* gap: 10px; */
+    margin: 0 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 600px;
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: start;
+    align-items: flex-start;
+    border-bottom: 0.5px light whitesmoke;
+    padding-bottom: 10px;
+}
+
+.serial_number {
+    align-items: center;
+}
+
+.coins_section_item_leftmost {
+    display: flex;
+    font-weight: var(--font-body);
+    align-items: center;
+    gap: 10px;
+}
+
+.coins_section_item_leftmost>p {
+    font-size: var(--font-body);
+}
+
+.coins_section_item_leftmost>img {
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+.volume_24hrs {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 800;
+    margin-left: 20px;
+
+}
+
+.volume_24hrs>p:last-child {
+    font-size: 11px;
+    opacity: .6;
+}
+
+
+
+.liquidity {
+    display: flex;
+    align-items: center;
+    font-size: var(--font-body);
+    font-weight: 800;
+    margin-left: 20px;
+
+}
+
+.liquidity>p:last-child {
+    font-size: 11px;
+    opacity: .6;
+}
+
+.low_price_change {
+    color: red;
+    font-size: var(--font-body);
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+.high_price_change {
+    color: green;
+    font-size: var(--font-body);
+    font-weight: 800;
+    margin-left: 20px;
+}

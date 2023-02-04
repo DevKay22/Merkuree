@@ -1,0 +1,57 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-around;
+
+}
+
+.footer__section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__section1_icons {
+    padding-top: 20px;
+    display: flex;
+    gap: 8px;
+    font-size: 13px;
+    color: white;
+    opacity: .6;
+}
+
+
+.footer__section_bold {
+    font-weight: bold;
+}
+
+.footer_section_options>p {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 0;
+
+}
+
+.footer_section_options>p :hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.footer_section2 {
+    display: grid;
+
+}
+
+
+
+.footer_section3 {
+    display: grid;
+
+
+}
+
+.footer_section4 {
+    display: grid;
+
+}
