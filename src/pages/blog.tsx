@@ -9,7 +9,7 @@ function Blog() {
     <div className="blog">
       <Nav />
       <div className="blog__container">
-        <h1>Coming Soon!!!</h1>
+        <h1>Coming Soon!!!!</h1>
       </div>
       <Footer />
       <Contact />
