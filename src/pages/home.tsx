@@ -63,9 +63,9 @@ function HomePage() {
                 Connect Wallet
               </button>
             )}
-            <button className="homepage_rounded_trading_outlined_button">
+            {/* <button className="homepage_rounded_trading_outlined_button">
               Add Liquidity
-            </button>
+            </button> */}
           </div>
         </div>
         <h3 className="avalaible_coins">Crypto Coins Update</h3>
