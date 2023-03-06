@@ -23,14 +23,14 @@ function Nav() {
       {/* Logo */}
       <h1>Merkury</h1>
       {/* Nav */}
-      <nav className="nav__items">
-        <ul>
+      <nav  className="nav__items">
+        <ul > 
           <li>
             <Link to="/">Home</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/blog">Blog</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/exchange">Exchange</Link>
           </li>
