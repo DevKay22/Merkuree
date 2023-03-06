@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+# Merkuree Smart contract
+/merkuree_smartcontract
 # testing
 /coverage
 
